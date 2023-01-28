@@ -85,19 +85,24 @@ ${data.contributions}
 ${data.test}
 
 ## License
-${data.license}`;
-        
+${licenseBadges(data.license)}`;
             fs.writeFile(newFile, format, (err) =>  
         err ? console.log(err) : console.log('Success!')
         );
-        
-
-           
-
     });
 
     
 
-    // function LicenseBadges() {
-        
-    // }
+    function licenseBadges(license) {
+        switch (license) {
+            case 'MIT': 
+            '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+            break;
+            case 'Apache': 
+            `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+            break;
+            case 'GPLv2': 
+            `[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`;
+            break;
+        }
+    }
