@@ -6,7 +6,7 @@ inquirer
     .prompt([
         {
             type: 'input',
-            name: 'name',
+            name: 'projectName',
             message: 'What is the name of your project?'
         },
         {
@@ -52,10 +52,48 @@ inquirer
         }
     ]).then((data) => {
         const newFile = 'README.md';
-        fs.writeFile(newFile, JSON.stringify(data), (err) =>  
+        
+        const format = 
+            `# ${data.projectName} 
+## Table of Contents
+
+- [Description](#Description)
+
+- [Installation Instructions](#Installation)
+
+- [Usage Info](#Usage)
+
+- [Contribution guidelines](#Contribution)
+
+- [Test Instructions](#Test)
+
+- [License](#License)
+
+## Description
+${data.description}
+
+## Installation Instructions
+${data.instructions}
+
+## Usage Info
+${data.usageInfo}
+
+## Contribution guidelines
+${data.contributions}
+
+## Test Instructions
+${data.test}
+
+## License
+${data.license}`;
+        
+            fs.writeFile(newFile, format, (err) =>  
         err ? console.log(err) : console.log('Success!')
         );
-    
+        
+
+           
+
     });
 
     
