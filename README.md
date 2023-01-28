@@ -1,1 +1,1 @@
-# readme-generator
+{"name":"Squishmallows","description":"Small, soft, fluffy, cute","instructions":"npm i squishmallows","usageInfo":"na","contributions":"na","test":"na","license":"MIT","username":"Fluffy","email":"squish.com"}
