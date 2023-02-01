@@ -36,5 +36,4 @@ n/a
 ## Questions
 Github: Masaki Senpai
 
-email: test@email.con
-
+email: test@email.com
