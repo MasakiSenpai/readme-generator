@@ -37,3 +37,5 @@ n/a
 Github: Masaki Senpai
 
 email: test@email.con
+
+## Visuals 
