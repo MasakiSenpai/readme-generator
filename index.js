@@ -57,17 +57,19 @@ inquirer
             `# ${data.projectName} 
 ## Table of Contents
 
-- [Description](#Description)
+- [Description](#description)
 
-- [Installation Instructions](#Installation)
+- [Installation Instructions](#installation-instructions)
 
-- [Usage Info](#Usage)
+- [Usage Info](#usage-info)
 
-- [Contribution guidelines](#Contribution)
+- [Contribution guidelines](#contribution-guidelines)
 
-- [Test Instructions](#Test)
+- [Test Instructions](#test-instructions)
 
-- [License](#License)
+- [License](#license)
+
+- [Questions](#questions)
 
 ## Description
 ${data.description}
@@ -85,7 +87,12 @@ ${data.contributions}
 ${data.test}
 
 ## License
-${licenseBadges(data.license)}`;
+${licenseBadges(data.license)}
+
+## Questions
+Github: ${data.username}
+
+email: ${data.email}`;
             fs.writeFile(newFile, format, (err) =>  
         err ? console.log(err) : console.log('Success!')
         );
@@ -101,5 +108,11 @@ ${licenseBadges(data.license)}`;
             return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
             case 'GPLv2': 
             return `[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`;
+            case 'GPLv3': 
+            return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
+            case 'BSD 3-clause': 
+            return `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
+            case 'The unlicense': 
+            return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`;
         }
     }

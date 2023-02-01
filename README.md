@@ -1,32 +1,39 @@
-# no 
+# Squishmallow 
 ## Table of Contents
 
-- [Description](#Description)
+- [Description](#description)
 
-- [Installation Instructions](#Installation)
+- [Installation Instructions](#installation-instructions)
 
-- [Usage Info](#Usage)
+- [Usage Info](#usage-info)
 
-- [Contribution guidelines](#Contribution)
+- [Contribution guidelines](#contribution-guidelines)
 
-- [Test Instructions](#Test)
+- [Test Instructions](#test-instructions)
 
-- [License](#License)
+- [License](#license)
+
+- [Questions](#questions)
 
 ## Description
-no
+Squishmallow
 
 ## Installation Instructions
-no
+Squishmallow
 
 ## Usage Info
-no
+Squishmallow
 
 ## Contribution guidelines
-no
+Squishmallow
 
 ## Test Instructions
-no
+Squishmallow
 
 ## License
-[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+## Questions
+Github: Masaki Senpai
+
+email: mandij50@gmail.com
