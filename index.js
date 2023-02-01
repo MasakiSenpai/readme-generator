@@ -38,7 +38,7 @@ inquirer
             type: 'list',
             name: 'license',
             message: 'Which license?',
-            choices: ['MIT', 'Apache', 'GPLv2', 'GPLv3', 'BSD 3-clause', 'The unlicense']
+            choices: ['MIT', 'Apache', 'GPLv2', 'GPLv3', 'BSD 3-clause', 'The unlicense', 'None']
         },
         {
             type: 'input',
@@ -114,5 +114,7 @@ email: ${data.email}`;
             return `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
             case 'The unlicense': 
             return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`;
+            case 'None': 
+            return `n/a`;
         }
     }

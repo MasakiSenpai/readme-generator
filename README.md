@@ -1,4 +1,4 @@
-# Squishmallow 
+# README generator 
 ## Table of Contents
 
 - [Description](#description)
@@ -16,24 +16,24 @@
 - [Questions](#questions)
 
 ## Description
-Squishmallow
+A command-line application that dynamically generates a professional README.md file to save time
 
 ## Installation Instructions
-Squishmallow
+n/a
 
 ## Usage Info
-Squishmallow
+Start prompts with Node index.js in terminal then just answer the questions
 
 ## Contribution guidelines
-Squishmallow
+n/a
 
 ## Test Instructions
-Squishmallow
+n/a
 
 ## License
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+n/a
 
 ## Questions
 Github: Masaki Senpai
 
-email: mandij50@gmail.com
+email: test@email.con
