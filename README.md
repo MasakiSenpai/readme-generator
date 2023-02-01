@@ -38,4 +38,3 @@ Github: Masaki Senpai
 
 email: test@email.con
 
-## Visuals 
