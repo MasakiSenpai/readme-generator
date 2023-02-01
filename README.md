@@ -37,3 +37,7 @@ n/a
 Github: Masaki Senpai
 
 email: test@email.com
+
+## Video
+
+https://drive.google.com/file/d/1M0sNfWSkkqpyOX6Ydg0ZwYdQ5xF7DaZP/view?usp=sharing
